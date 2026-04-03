@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @davissok
-- 👀 I’m interested in Blockchain, web 3
+- 👀 I’m interested in Blockchain, web 3, AI agent.
 - 🌱 I’m currently learning solidity, Move and AI
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
