@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="900" viewBox="0 0 1000 900" role="img" aria-labelledby="title desc">
+  <title id="title">Astronauta flotando</title>
+  <desc id="desc">Un astronauta blanco, con visor oscuro y pequeños detalles turquesa, flota y saluda en gravedad cero.</desc>
+  <defs>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="0.8">
+      <stop stop-color="#fff"/><stop offset="0.55" stop-color="#e9f0f2"/><stop offset="1" stop-color="#a9bdc8"/>
+    </linearGradient>
+    <linearGradient id="helmet" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop stop-color="#fff"/><stop offset="0.55" stop-color="#f2f6f7"/><stop offset="1" stop-color="#b8cbd3"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="0.15" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#254454"/><stop offset="0.45" stop-color="#102633"/><stop offset="1" stop-color="#040d16"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#7896a5"/><stop offset="0.5" stop-color="#253e4e"/><stop offset="1" stop-color="#506b7a"/>
+    </linearGradient>
+    <linearGradient id="sole" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#385463"/><stop offset="1" stop-color="#172d3b"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 9;0 -14;0 9" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <g transform="rotate(-13 500 450)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-2 500 450;2 500 450;-2 500 450" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+
+        <!-- Life-support pack -->
+        <g stroke="#233b49" stroke-width="5" stroke-linejoin="round">
+          <rect x="393" y="350" width="223" height="249" rx="42" fill="#92aab7"/>
+          <rect x="402" y="365" width="211" height="213" rx="35" fill="#b7cbd4"/>
+          <path d="M408 399h-19v118h22m191-128h22v119h-20" fill="#dce8ec"/>
+        </g>
+
+        <!-- Legs, relaxed in zero gravity -->
+        <g stroke="#233b49" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="0 444 560;3 444 560;0 444 560" dur="7s" repeatCount="indefinite"/>
+            <path d="M404 542c-9 40-22 75-53 111-18 21-13 45 7 59 24 16 49 9 67-15 34-44 55-85 63-126z" fill="url(#suit)"/>
+            <path d="m361 639 64 39m-70-27 62 38" stroke="#91a9b6" stroke-width="6"/>
+            <path d="M350 683c-19 12-27 30-27 49l-29 12c-20 9-29 28-20 42 10 15 40 17 68 7l51-17c16-6 23-19 21-34l-9-39z" fill="url(#suit)"/>
+            <path d="M274 774c22 9 42 9 61 2l77-28v19c-2 9-12 15-25 20l-46 16c-35 11-61 8-69-8z" fill="url(#sole)"/>
+            <path d="m342 724 39-14m-40 28 45-17" stroke="#8ca6b4" stroke-width="5"/>
+          </g>
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="0 553 560;-3 553 560;0 553 560" dur="8s" repeatCount="indefinite"/>
+            <path d="M510 570c7 43 26 77 54 107l29 51c12 22 38 29 58 17 21-12 26-37 13-60l-33-56c-20-26-30-51-34-78z" fill="url(#suit)"/>
+            <path d="m565 669 62-36m-54 48 62-36" stroke="#91a9b6" stroke-width="6"/>
+            <path d="M597 711c-8 24-6 46 5 64l16 27c12 20 34 33 53 24 17-8 19-28 6-52l-4-36c-2-15-14-27-27-29z" fill="url(#suit)"/>
+            <path d="M613 793c21 10 43 7 61-6l9 17c5 12 3 23-10 30-19 10-43 3-57-18z" fill="url(#sole)"/>
+            <path d="m615 744 36-10m-30 24 33-10" stroke="#8ca6b4" stroke-width="5"/>
+          </g>
+        </g>
+
+        <!-- Waving arm -->
+        <g stroke="#233b49" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-3 393 402;4 393 402;-3 393 402" dur="5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+            <path d="M409 385c-17-24-41-24-60-6l-25 24-25-47c-12-23-35-32-53-21-18 10-21 33-9 55l41 75c12 22 35 28 57 14l74-46c17-12 17-31 0-48z" fill="url(#suit)"/>
+            <path d="m346 391 24 48m-37-39 24 47" stroke="#91a9b6" stroke-width="6"/>
+            <path d="m244 349 52-20 15 33-53 22z" fill="url(#rim)"/>
+            <path d="m249 355 52-20" stroke="#5eead4" stroke-width="7"/>
+            <path d="M251 341c-18-8-28-22-31-41l-8-36c-2-10 3-17 10-17 8 0 12 5 15 15l6 21-5-54c-1-11 4-17 12-17s12 7 13 16l6 49 3-58c1-10 6-15 14-14 8 1 12 8 11 18l-2 57 9-36c2-8 8-12 15-10 8 2 10 10 8 18l-10 44 11-11c7-6 15-6 20 0 6 6 3 14-3 21l-28 31c-12 11-38 18-51 3z" fill="url(#suit)"/>
+            <path d="m244 295 12 15m18-18 11 17m13-14 8 10" fill="none" stroke="#a3b8c3" stroke-width="4"/>
+          </g>
+
+          <!-- Other arm -->
+          <path d="M583 389c18-20 44-10 60 8l46 61c10 14 16 30 17 47l2 57c0 25-14 40-35 39-22-1-35-18-36-39l-3-45-47-60c-19-25-22-49-4-68z" fill="url(#suit)"/>
+          <path d="m652 450 31-23m-24 35 31-23" stroke="#91a9b6" stroke-width="6"/>
+          <path d="m635 546 73 1v28l-72 1z" fill="url(#rim)"/>
+          <path d="m639 553 65 1" stroke="#5eead4" stroke-width="6"/>
+          <path d="M642 575c-9 13-10 35-2 52l9 18c5 10 17 9 19 0 7 9 18 7 20-2 9 7 19 2 19-8 10 3 18-6 15-16l-13-36c-5-11-15-15-28-14z" fill="url(#suit)"/>
+          <path d="m661 609 7 30m10-33 9 32m8-35 10 29" stroke="#a3b8c3" stroke-width="4"/>
+        </g>
+
+        <!-- Torso -->
+        <g stroke="#233b49" stroke-width="5" stroke-linejoin="round">
+          <path d="M436 363c-28 3-50 22-54 52l-4 114c-1 36 21 62 56 65l128-1c34-2 54-29 51-64l-10-117c-3-29-23-47-53-50z" fill="url(#suit)"/>
+          <path d="M393 546c62 18 134 20 207-2l-2 30c-63 23-133 23-204 2z" fill="url(#rim)"/>
+          <path d="m412 556 26 4m129-3 17-4" stroke="#a0b8c4" stroke-width="5" stroke-linecap="round"/>
+          <rect x="471" y="553" width="51" height="31" rx="7" fill="#dce9ed"/>
+          <rect x="483" y="561" width="27" height="14" rx="3" fill="#5eead4" stroke="none"/>
+          <path d="M416 395v128m162-127 6 128" fill="none" stroke="#b5c8d2" stroke-width="4"/>
+
+          <!-- Chest unit -->
+          <rect x="433" y="415" width="128" height="105" rx="20" fill="#b7cbd3"/>
+          <rect x="444" y="426" width="106" height="81" rx="12" fill="#eef5f6" stroke="#849eac" stroke-width="3"/>
+          <rect x="456" y="438" width="81" height="30" rx="6" fill="#142e3c" stroke="none"/>
+          <path d="m466 454 10-1 6-7 8 13 7-9h29" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="464" cy="487" r="6" fill="#5eead4" stroke="#33817b" stroke-width="2"/>
+          <circle cx="486" cy="487" r="6" fill="#d0dde2" stroke="#8fa7b4" stroke-width="2"/>
+          <path d="M511 484h24m-24 7h24" stroke="#91aab6" stroke-width="3" stroke-linecap="round"/>
+          <path d="M402 494c-11 2-18 14-12 27 11 21 26 20 33 5" fill="none" stroke="#233b49" stroke-width="9"/>
+          <path d="M402 494c-11 2-18 14-12 27 11 21 26 20 33 5" fill="none" stroke="#c2d5dd" stroke-width="4"/>
+        </g>
+
+        <!-- Neck ring -->
+        <ellipse cx="498" cy="378" rx="84" ry="24" fill="#263f4f" stroke="#233b49" stroke-width="5"/>
+        <path d="M423 373c44 18 97 19 151-1" fill="none" stroke="#98afbb" stroke-width="8" stroke-linecap="round"/>
+
+        <!-- Helmet shell and glass -->
+        <g stroke="#233b49" stroke-width="5">
+          <path d="M358 258c0-86 57-147 141-147 86 0 145 60 145 147 0 88-51 131-144 131-92 0-142-43-142-131z" fill="url(#helmet)"/>
+          <path d="M382 260c0-65 45-109 115-109 75 0 123 42 123 110 0 69-38 102-120 102-78 0-118-33-118-103z" fill="url(#rim)" stroke-width="3"/>
+          <path d="M396 258c0-56 39-93 101-93 67 0 109 37 109 95 0 59-33 88-106 88-69 0-104-28-104-90z" fill="url(#visor)" stroke-width="4"/>
+          <path d="M414 237c10-35 38-53 79-53" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+          <path d="M416 257c0-2 0-5 1-8" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+          <path d="M539 329c21-3 38-12 47-25" fill="none" stroke="#5eead4" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+          <path d="M469 130h57" fill="none" stroke="#bccfd7" stroke-width="5" stroke-linecap="round"/>
+          <rect x="350" y="243" width="22" height="49" rx="9" fill="#dae7ec" stroke-width="4"/>
+          <rect x="632" y="243" width="22" height="49" rx="9" fill="#dae7ec" stroke-width="4"/>
+          <path d="M355 259v17m294-17v17" stroke="#7e9aa9" stroke-width="3" stroke-linecap="round"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
