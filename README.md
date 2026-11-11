@@ -9,7 +9,7 @@
 
 ---
 
-### Proyecto
+
 
 **[Plushie Dream 3D ↗](https://davissok.github.io/plushie-dream-3d/)**
 
