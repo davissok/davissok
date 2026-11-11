@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+  <title id="title">Onda turquesa</title>
+  <desc id="desc">Una única línea turquesa, luminosa y delicada, respira y se transforma sobre un fondo transparente.</desc>
+  <defs>
+    <linearGradient id="turquoise" x1="100" y1="250" x2="900" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#2dd4bf" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#5eead4"/>
+      <stop offset="0.55" stop-color="#a7fff0"/>
+      <stop offset="0.75" stop-color="#5eead4" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <path id="wave" d="M100 250 C170 250 185 185 275 185 C365 185 385 315 475 315 C565 315 585 185 675 185 C765 185 830 250 900 250">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" values="
+        M100 250 C170 250 185 185 275 185 C365 185 385 315 475 315 C565 315 585 185 675 185 C765 185 830 250 900 250;
+        M100 250 C170 250 185 225 275 225 C365 225 385 275 475 275 C565 275 585 225 675 225 C765 225 830 250 900 250;
+        M100 250 C170 250 185 305 275 305 C365 305 385 195 475 195 C565 195 585 305 675 305 C765 305 830 250 900 250;
+        M100 250 C170 250 185 270 275 270 C365 270 385 230 475 230 C565 230 585 270 675 270 C765 270 830 250 900 250;
+        M100 250 C170 250 185 185 275 185 C365 185 385 315 475 315 C565 315 585 185 675 185 C765 185 830 250 900 250"/>
+    </path>
+  </defs>
+  <g fill="none" stroke="url(#turquoise)" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <use xlink:href="#wave" stroke-width="12" opacity="0.2" filter="url(#glow)"/>
+    <use xlink:href="#wave" stroke-width="2.5"/>
+  </g>
+</svg>
