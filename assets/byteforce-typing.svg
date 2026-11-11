@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="55" viewBox="0 0 360 55" role="img" aria-labelledby="title desc">
+  <title id="title">Byteforce Team</title>
+  <desc id="desc">Byteforce Team aparece letra a letra, como código escrito en una terminal, con un cursor parpadeante.</desc>
+  <defs>
+    <clipPath id="typing">
+      <rect x="89" y="5" width="182" height="45">
+        <animate attributeName="width" values="0;13;26;39;52;65;78;91;104;117;130;143;156;169;182;182;0;0" keyTimes="0.000;0.025;0.050;0.075;0.100;0.125;0.150;0.175;0.200;0.225;0.250;0.275;0.300;0.325;0.350;0.860;0.900;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <text x="89" y="33" fill="#5eead4" font-family="Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="400" textLength="182" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">Byteforce Team</text>
+  <rect x="271" y="15" width="2" height="22" rx="0.5" fill="#5eead4">
+    <animate attributeName="x" values="89;102;115;128;141;154;167;180;193;206;219;232;245;258;271;271;89;89" keyTimes="0.000;0.025;0.050;0.075;0.100;0.125;0.150;0.175;0.200;0.225;0.250;0.275;0.300;0.325;0.350;0.860;0.900;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

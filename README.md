@@ -3,6 +3,6 @@
 </p>
 
 <p align="center">
-  <strong>Byteforce Team</strong><br />
+  <img src="assets/byteforce-typing.svg" alt="Byteforce Team" width="360" /><br />
   <sub>Current team</sub>
 </p>
