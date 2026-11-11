@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/typing.svg" alt="Construyendo con IA. Explorando Web3. Automatizando ideas." width="600" />
+</p>
+
+<p align="center">
   <a href="https://github.com/davissok?tab=repositories"><img alt="Explorar proyectos" src="https://img.shields.io/badge/EXPLORAR_PROYECTOS-102A32?style=for-the-badge&amp;logo=github&amp;logoColor=5EEAD4" /></a>
   <a href="https://x.com/AbelDavidok"><img alt="Conectar en X" src="https://img.shields.io/badge/CONECTEMOS-102A32?style=for-the-badge&amp;logo=x&amp;logoColor=5EEAD4" /></a>
 </p>
@@ -26,12 +30,14 @@
 
 ### 🛠️ Mi caja de herramientas
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-142C35?style=for-the-badge&amp;logo=python&amp;logoColor=5EEAD4" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-142C35?style=for-the-badge&amp;logo=fastapi&amp;logoColor=5EEAD4" />
+<p align="center">
+  <img src="assets/skills.svg" alt="Python, FastAPI, Next.js y GitHub Actions" width="264" />
+</p>
+
+<p align="center">
+  Python &nbsp;·&nbsp; FastAPI &nbsp;·&nbsp; Next.js &nbsp;·&nbsp; GitHub Actions
+  <br /><br />
   <img alt="LangChain" src="https://img.shields.io/badge/LangChain-142C35?style=for-the-badge&amp;logo=langchain&amp;logoColor=5EEAD4" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-142C35?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=5EEAD4" />
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-142C35?style=for-the-badge&amp;logo=githubactions&amp;logoColor=5EEAD4" />
 </p>
 
 <sub>En mis proyectos y experimentos. Siempre hay algo nuevo por aprender.</sub>
@@ -62,6 +68,18 @@
 <p><b>Agentes de IA</b> &nbsp; / &nbsp; <b>Automatización</b> &nbsp; / &nbsp; <b>Solidity &amp; Move</b> &nbsp; / &nbsp; <b>Open source</b></p>
 
 Me interesa conectar con personas que también estén aprendiendo y construyendo con estas tecnologías.
+
+### 🐍 Código en movimiento
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+    <img src="assets/github-snake.svg" alt="Una serpiente recorre mi calendario de contribuciones de GitHub" width="100%" />
+  </picture>
+  <br />
+  <sub>Mis contribuciones, en movimiento. Actualizado cada día con GitHub Actions.</sub>
+</p>
 
 ---
 
