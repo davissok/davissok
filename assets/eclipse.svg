@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Eclipse</title>
+  <desc id="desc">Un disco oscuro rodeado por una corona de luz blanca y dorada. El halo respira lentamente y un destello recorre su borde.</desc>
+  <defs>
+    <radialGradient id="atmosphere">
+      <stop offset="0.42" stop-color="#ffd9a0" stop-opacity="0"/>
+      <stop offset="0.57" stop-color="#f1b36e" stop-opacity="0.14"/>
+      <stop offset="0.73" stop-color="#d78149" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#d78149" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="corona" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#bb784e"/>
+      <stop offset="0.35" stop-color="#edbd81"/>
+      <stop offset="0.7" stop-color="#fff5df"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.35" cy="0.3" r="0.85">
+      <stop stop-color="#080b10"/>
+      <stop offset="0.85" stop-color="#090c11"/>
+      <stop offset="1" stop-color="#131319"/>
+    </radialGradient>
+    <filter id="wide" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="fine" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <radialGradient id="glint">
+      <stop stop-color="#fff"/>
+      <stop offset="0.1" stop-color="#fff7e7" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#ffd5a0" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#e8a367" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <circle cx="500" cy="350" r="290" fill="url(#atmosphere)"/>
+    <circle cx="500" cy="350" r="154" fill="none" stroke="#eab47c" stroke-width="20" filter="url(#wide)" opacity="0.65"/>
+    <circle cx="500" cy="350" r="154" fill="none" stroke="#f6d6ac" stroke-width="8" filter="url(#soft)" opacity="0.85"/>
+  </g>
+
+  <circle cx="500" cy="350" r="153" fill="none" stroke="url(#corona)" stroke-width="5" filter="url(#fine)"/>
+  <circle cx="500" cy="350" r="152.5" fill="none" stroke="url(#corona)" stroke-width="1.7"/>
+
+  <!-- The moon moves only a few pixels: a quiet, almost total eclipse. -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-1.5 1;1.5 -1;-1.5 1" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <circle cx="500" cy="350" r="151" fill="url(#moon)"/>
+  </g>
+
+  <!-- One small diamond of light, slowly orbiting along the solar limb. -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="-38 500 350" to="322 500 350" dur="36s" repeatCount="indefinite"/>
+    <circle cx="652.5" cy="350" r="35" fill="url(#glint)">
+      <animate attributeName="opacity" values="0.45;0.95;0.45" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="652.5" cy="350" r="2.4" fill="#fff8ed"/>
+  </g>
+</svg>
